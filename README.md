@@ -1,4 +1,87 @@
-# Getting Started with Create React App
+<div align="center">
+
+# **Sensory Seattle**
+## Created by Louie Schoenknecht
+
+### A sensory-friendly social media resource.
+
+### Project Began 5.07.21
+
+|  **Get In Touch** 	|   	|
+|---	|---	|
+|  GitHub 	|  <a href="https://github.com/louiesch"> ![GitHub followers](https://img.shields.io/github/followers/louiesch?style=social)	</a>  |
+|  LinkedIn 	|  <a href="https://linkedin.com/in/louie-schoenknecht"> <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2"></a>	|
+
+</div>
+
+---
+
+## _Description_
+
+Sensory Seattle is a social media platform for people with and friends/family of those with sensory processing disorders, where users can submit information about potential sights, sounds, smells, etc in the local Seattle community.
+
+---
+
+## _Technologies Used_
+
+* **eslint**
+* **Git and GitHub**
+* **Firebase/FireStore**
+* **HTML5/CSS**
+* **JavaScript ES6**
+* **Node Package Manager**
+* **React**
+* **Visual Studio Code**
+* **webpack**
+
+(thats all FOR NOW)
+
+---
+
+## _Known Bugs_
+* No known bugs at this time. (duh)
+
+---
+
+## _MVP_
+* Let users view, post to, and edit their contributions on a pubic feed. (currently unsure about delete functionality)
+
+---
+
+## _Stretch Goals_
+
+* Add an option for users to sign up/in and create an account or profile.
+
+* Incorporate a map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
+
+* Users can leave comments on the pins and posts of other users.
+
+## _Preplanning/Component Diagram_
+
+![Component Diagram](path-here)
+
+
+---
+
+## _Installation Guide_
+
+### _Cloning and Initial Setup_
+
+> Repository: 
+* Clone repository from Github to desired location on local machine:
+  > git clone [URL]
+* Navigate in your terminal to SensorySeattle directory:
+  > cd SensorySeattle
+* Build the project with:
+  > npm install
+* To open code in code editor:
+  > code .
+* To view in the browser:
+  > npm run start
+  
+---
+
+## _Additional Instructions From the React Team_
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +151,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## _License_
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2021, Louie Schoenknecht
