@@ -28,6 +28,8 @@ Sensory Seattle is a social media platform for people with and friends/family of
 * Why create this website?
 * Resources about SPD
 
+---
+
 ## _Technologies Used_
 
 * **eslint**
@@ -61,6 +63,8 @@ Sensory Seattle is a social media platform for people with and friends/family of
 * Incorporate a map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
 
 * Users can leave comments on the pins and posts of other users.
+
+---
 
 ## _Preplanning/Component Diagram_
 
@@ -158,6 +162,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+---
 
 ## _License_
 
