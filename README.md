@@ -22,6 +22,12 @@ Sensory Seattle is a social media platform for people with and friends/family of
 
 ---
 
+## _About this Project and Further Reading_
+
+* What is a sensory processing disorder?
+* Why create this website?
+* Resources about SPD
+
 ## _Technologies Used_
 
 * **eslint**
@@ -78,7 +84,7 @@ Sensory Seattle is a social media platform for people with and friends/family of
   > code .
 * To view in the browser:
   > npm run start
-  
+
 ---
 
 ## _Additional Instructions From the React Team_
