@@ -24,9 +24,14 @@ Sensory Seattle is a social media platform for people with and friends/family of
 
 ## _About this Project and Further Reading_
 
-* What is a sensory processing disorder?
 * Why create this website?
-* Resources about SPD
+  * My goal in creating this was both to educate people about sensory processing disorders, as well as to provide a resource for those who struggle with SPD.
+
+* What is a sensory processing disorder?
+  * Here I'll have links to various resources.
+
+* Who can post?
+  * Anyone! Although this was created for people with and family/friends of those with SPD in mind, anyone is welcome to post and share their experiences.
 
 ---
 
@@ -47,22 +52,28 @@ Sensory Seattle is a social media platform for people with and friends/family of
 ---
 
 ## _Known Bugs_
-* No known bugs at this time. (duh)
+* No known bugs at this time.
 
 ---
 
 ## _MVP_
-* Let users view, post to, and edit their contributions on a pubic feed. (currently unsure about delete functionality)
+* Users can view and post to a pubic feed.
+
+* Let users create an account where they can set up a profile.
+
+* Once a profile is set up, users can go back and edit or delete their posts.
+
+* Incorporate an interactive crowd-sourced map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
+  * For now, this is more of a stretch goal, because I have no idea how I would do this. However, I very much would like this to be a part of the website. If implemented successfully, this may even become the primary focus of the site, and the feed will become secondary/deleted altogether.
 
 ---
 
 ## _Stretch Goals_
 
-* Add an option for users to sign up/in and create an account or profile.
+* Users can rate posts/pins by other users (a like button, or "this was helpful" type button basically)
 
-* Incorporate a map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
+* Users can leave comments on the posts/map pins of other users
 
-* Users can leave comments on the pins and posts of other users.
 
 ---
 
