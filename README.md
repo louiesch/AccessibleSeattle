@@ -67,7 +67,8 @@ Sensory Seattle is a social media platform for people with and friends/family of
 
 ---
 
-## _
+## _Stretch Goals_
+
 * Incorporate an interactive crowd-sourced map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
   * For now, this is more of a stretch goal, because I have no idea how I would do this. However, I very much would like this to be a part of the website. If implemented successfully, this may even become the primary focus of the site, and the feed will become secondary/deleted altogether.
 
