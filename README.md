@@ -63,12 +63,13 @@ Sensory Seattle is a social media platform for people with and friends/family of
 
 * Once a profile is set up, users can go back and edit or delete their posts.
 
-* Incorporate an interactive crowd-sourced map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
-  * For now, this is more of a stretch goal, because I have no idea how I would do this. However, I very much would like this to be a part of the website. If implemented successfully, this may even become the primary focus of the site, and the feed will become secondary/deleted altogether.
+* I want the website itself to be sensory-friendly, as such a light/dark mode toggle is needed at the very minimum. Will need to research some more about this part of the MVP
 
 ---
 
-## _Stretch Goals_
+## _
+* Incorporate an interactive crowd-sourced map of some kind. Users should be able to add pins to the map, leave comments/feedback on those pins, and also view the pins of other contributers.
+  * For now, this is more of a stretch goal, because I have no idea how I would do this. However, I very much would like this to be a part of the website. If implemented successfully, this may even become the primary focus of the site, and the feed will become secondary/deleted altogether.
 
 * Users can rate posts/pins by other users (a like button, or "this was helpful" type button basically)
 
