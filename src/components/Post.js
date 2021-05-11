@@ -1,11 +1,10 @@
 import React from "react";
 
-function Post(){
-  const userName = "Louie";
+function Post(props) {
   return (
     <>
-      <h3>{userName}</h3>
-      <p>Contents of post go here</p>
+      <h3>{props.userName}</h3>
+      <p>{props.post}</p>
       <hr/>
     </>
   );
