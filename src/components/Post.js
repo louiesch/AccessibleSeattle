@@ -5,7 +5,7 @@ function Post(props) {
   return (
     <>
       <h3>{props.userName}</h3>
-      <p>{props.post}</p>
+      <p>{props.content}</p>
       <hr/>
     </>
   );
@@ -13,7 +13,7 @@ function Post(props) {
 
 Post.propTypes = {
   userName: PropTypes.string.isRequired,
-  post: PropTypes.string.isRequired
+  content: PropTypes.string.isRequired
 };
 
 export default Post;

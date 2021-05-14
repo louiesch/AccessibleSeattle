@@ -1,15 +1,31 @@
 import React from "react";
 import Post from "./Post";
 
+const mainSocialFeed = [
+  {
+    userName: 'LouieSch',
+    content: 'My first post, yay!' 
+  },
+  {
+    userName: 'LBJ',
+    content: 'hey Louie this is so cool'
+  },
+  {
+    userName: 'LouieSch',
+    content: 'Here is another post, check it out!'
+  }
+];
+
 function SocialFeed() {
   return (
     <>
-      <Post 
-        userName='LouieSch'
-        post='My first post, yay!' />
-      <Post 
-        userName='LBJ'
-        post='hey Louie this is so cool - Landes' />
+      <hr/>
+      {mainSocialFeed.map((post, index) =>
+        <Post
+          userName={post.userName}
+          content={post.content}
+          key={index} />
+        )}
     </>
   );
 }
