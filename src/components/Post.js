@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function Post(props) {
   return (
@@ -9,5 +10,10 @@ function Post(props) {
     </>
   );
 }
+
+Post.propTypes = {
+  userName: PropTypes.string.isRequired,
+  post: PropTypes.string.isRequired
+};
 
 export default Post;
