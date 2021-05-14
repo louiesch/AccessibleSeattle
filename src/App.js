@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
-import SocialFeed from './SocialFeed'
+import Header from './components/Header'
+import SocialFeed from './components/SocialFeed'
 
 function App() {
   return (
