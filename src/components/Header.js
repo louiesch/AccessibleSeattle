@@ -2,8 +2,12 @@ import React from 'react';
 
 function Header() {
   return (
-    <h1>Sensory Seattle</h1>
+    <>
+      <div className='header'>
+        <h1>Sensory Seattle</h1>
+      </div>
+    </>
   );
 }
 
-export default Header
+export default Header;
