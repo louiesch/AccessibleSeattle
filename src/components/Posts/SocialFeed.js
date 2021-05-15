@@ -1,3 +1,5 @@
+// basically a running list of posts
+
 import React from 'react';
 import Post from './Post';
 
