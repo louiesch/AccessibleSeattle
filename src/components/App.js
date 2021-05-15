@@ -5,8 +5,14 @@ import PostControl from './Posts/PostControl';
 function App() {
   return (
     <>
-      <Header />
-      <PostControl />
+      <div className="app">
+        <Header />
+        <div className="row">
+          <div className="column">
+          <PostControl />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

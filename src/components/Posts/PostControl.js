@@ -11,16 +11,27 @@ class PostControl extends React.Component {
     };
   }
 
+  handleClick = () => {
+    this.setState({formVisibleOnPage: true});
+  }
+
   render() {
     let currentlyVisibleState = null;
+    let addPostButton = null;
     if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <CreatePost />
     } else {
       currentlyVisibleState = <SocialFeed />
+      addPostButton = <button onClick={this.handleClick}>Share Post</button>
     }
     return (
       <>
-        {currentlyVisibleState}
+        <div className='row'>
+          <div className='column'>
+            {addPostButton}
+            {currentlyVisibleState}
+          </div>
+        </div>
       </>
     );
   }

@@ -21,13 +21,14 @@ const mainSocialFeed = [
 function SocialFeed() {
   return (
     <>
-      <hr/>
+    <div className='component'>
       {mainSocialFeed.map((post, index) =>
         <Post
           userName={post.userName}
           content={post.content}
           key={index} />
         )}
+      </div>
     </>
   );
 }
