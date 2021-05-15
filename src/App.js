@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-import Home from './components/Home';
+// import PostControl from './components/Posts/PostControl';
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      {/* <PostControl /> */}
     </>
   );
 }
