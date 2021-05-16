@@ -16,11 +16,11 @@ function CreatePost() {
           <input
             type='text'
             name='userName'
-            placeholder='LouieSch' />
+            placeholder='UserName' />
           <textarea
             type='text'
             name='content'
-            placeholder='this is a post, woohoo' />
+            placeholder='Share your thoughts here!' />
           <button type='submit'>Post</button>
         </form>
       </div>
