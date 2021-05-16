@@ -13,8 +13,10 @@ class PostControl extends React.Component {
   }
 
   handleAddingNewPostToSocialFeed = (newPost) => {
-    const newMainSocialFeed = this.state.mainSocialFeed.concat(newPost);
-    this.setState({mainSocialFeed: newMainSocialFeed,
+    const newMainSocialFeed =
+    this.state.mainSocialFeed.concat(newPost);
+    this.setState({
+      mainSocialFeed: newMainSocialFeed,
       formVisibleOnPage: false
     });
   }
@@ -29,10 +31,14 @@ class PostControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null;
     if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <CreatePost />;
+      currentlyVisibleState =
+      <CreatePost
+        onNewPostCreation={this.handleAddingNewPostToSocialFeed} />;
       buttonText = "Return to Posts";
     } else {
-      currentlyVisibleState = <SocialFeed socialFeed={this.state.mainSocialFeed} />
+      currentlyVisibleState =
+      <SocialFeed
+        socialFeed={this.state.mainSocialFeed} />
       buttonText = "Share Post";
     }
     return (

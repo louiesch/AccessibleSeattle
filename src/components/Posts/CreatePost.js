@@ -1,12 +1,16 @@
 import React from 'react';
 import { v4 } from 'uuid';
+import PropTypes from 'prop-types';
 
-function CreatePost() {
+function CreatePost(props) {
 
   function handleNewPostSubmission(event) {
     event.preventDefault();
-    console.log(event.target.userName.value);
-    console.log(event.target.content.value);
+    props.onNewPostCreation({
+      userName: event.target.userName.value,
+      content: event.target.content.value,
+      id: v4()
+    })
   }
 
   return (
@@ -27,5 +31,9 @@ function CreatePost() {
     </>
   );
 }
+
+CreatePost.propTypes = {
+  onNewPostCreation: PropTypes.func
+};
 
 export default CreatePost;
