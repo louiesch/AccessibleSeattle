@@ -1,16 +1,10 @@
-//entry point for application
+import React from 'react'
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from '../../components/App';
-import reportWebVitals from '../../reportWebVitals';
+export default function Home() {
+  return (
+    <div className='home'>
+      
+    </div>
+  )
+}
 
-ReactDOM.render(
-  <>
-    <App />
-  </>,
-  document.getElementById('root')
-);
-
-reportWebVitals();

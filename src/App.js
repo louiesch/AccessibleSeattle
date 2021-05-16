@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import PostControl from './Posts/PostControl';
+import Header from './components/Header';
+import PostControl from './components/Posts/PostControl';
 
 function App() {
   return (
