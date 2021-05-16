@@ -12,6 +12,13 @@ class PostControl extends React.Component {
     };
   }
 
+  handleAddingNewPostToSocialFeed = (newPost) => {
+    const newMainSocialFeed = this.state.mainSocialFeed.concat(newPost);
+    this.setState({mainSocialFeed: newMainSocialFeed,
+      formVisibleOnPage: false
+    });
+  }
+
   handleClick = () => {
     this.setState(prevState => ({
       formVisibleOnPage: !prevState.formVisibleOnPage
