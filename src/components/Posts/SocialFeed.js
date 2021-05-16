@@ -2,35 +2,25 @@
 
 import React from 'react';
 import Post from './Post';
+import PropTypes from 'prop-types';
 
-const mainSocialFeed = [
-  {
-    userName: 'LouieSch',
-    content: 'My first post, yay!' 
-  },
-  {
-    userName: 'LBJ',
-    content: 'hey Louie this is so cool'
-  },
-  {
-    userName: 'LouieSch',
-    content: 'Here is another post, check it out!'
-  }
-];
-
-function SocialFeed() {
+function SocialFeed(props) {
   return (
     <>
-    <div className='component'>
-      {mainSocialFeed.map((post, index) =>
-        <Post
-          userName={post.userName}
-          content={post.content}
-          key={index} />
+      <div className='component'>
+        {props.socialFeed.map((post, index) =>
+          <Post
+            userName={post.userName}
+            content={post.content}
+            key={index} />
         )}
       </div>
     </>
   );
 }
 
-export default SocialFeed
+SocialFeed.propTypes = {
+  socialFeed: PropTypes.array
+};
+
+export default SocialFeed;

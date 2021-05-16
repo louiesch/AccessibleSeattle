@@ -7,7 +7,8 @@ class PostControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      formVisibleOnPage: false
+      formVisibleOnPage: false,
+      mainSocialFeed: []
     };
   }
 
@@ -24,7 +25,7 @@ class PostControl extends React.Component {
       currentlyVisibleState = <CreatePost />;
       buttonText = "Return to Posts";
     } else {
-      currentlyVisibleState = <SocialFeed />
+      currentlyVisibleState = <SocialFeed socialFeed={this.state.mainSocialFeed} />
       buttonText = "Share Post";
     }
     return (
