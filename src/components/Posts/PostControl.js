@@ -7,8 +7,9 @@ class PostControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      formVisibleOnPage: false,
-      mainSocialFeed: []
+      formVisibleOnPage: true,
+      mainSocialFeed: [],
+      selectedPost: null
     };
   }
 
