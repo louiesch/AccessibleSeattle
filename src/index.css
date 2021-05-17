@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-.component, .app, .header {
+/* .component, .app, .header {
   border: 2px solid black;
   margin: 10px;
   padding: 10px;
@@ -41,4 +41,4 @@ code {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-}
+} */

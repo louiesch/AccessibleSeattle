@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './styles.css';
 
 export default function SignInBtn() {
   return (
     <div className='signInBtn'>
-      <p>sign in here</p>
+      <p>Sign in With Google</p>
     </div>
   )
 }
