@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css'
+import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 
 export default function Header() {
