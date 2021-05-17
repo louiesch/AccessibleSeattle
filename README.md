@@ -1,9 +1,9 @@
 <div align="center">
 
-# **Sensory Seattle**
+# **Accessible Seattle**
 ## Created by Louie Schoenknecht
 
-### A sensory-friendly social media resource.
+### A social media resource for accessibility.
 
 ### Project Began 5.07.21
 
@@ -18,20 +18,20 @@
 
 ## _Description_
 
-Sensory Seattle is a social media platform for people with and friends/family of those with sensory processing disorders, where users can submit information about potential sights, sounds, smells, etc in the local Seattle community.
+Accessible Seattle is a social media platform for people with and friends/family of those with disabilities, sensory processing disorders, and other special needs. Users can submit information about accessibility, accomodations, and potential sights, sounds, smells, etc in the local Seattle community.
 
 ---
 
 ## _About this Project and Further Reading_
 
 * Why create this website?
-  * My goal in creating this was both to educate people about sensory processing disorders, as well as to provide a resource for those who struggle with SPD.
-
-* What is a sensory processing disorder?
-  * Here I'll have links to various resources.
+  * My goal in creating this was to provide a resource for those whose needs are often left out of your average Google or Yelp review.
 
 * Who can post?
-  * Anyone! Although this was created for people with and family/friends of those with SPD in mind, anyone is welcome to post and share their experiences.
+  * Anyone! Although this was created for people with and family/friends of those with disbilities in mind, anyone is welcome to post and share their experiences.
+
+* What kind of things should be posted?
+  * Some examples: Is the location wheelchair accessible? Were staff/employees accomodating? For those on the autism spectrum or with sensory processing disorders, are there any potential sights, sounds, or smells to report on (very loud music, beeping from the kitchen, flourescent lighting, etc)?
 
 ---
 
