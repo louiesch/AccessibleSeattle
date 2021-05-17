@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
-// import { Header, CreatePost } from '../../containers';
+// import { Header, CreatePost } from '../../containers/containers.js';
 import Header from '../../containers/header/header';
 import CreatePost from '../../containers/create-post/create-post';
 
-export default function Home() {
+function Home() {
   return (
     <div className='home'>
       <Header />
@@ -12,4 +12,6 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;
 

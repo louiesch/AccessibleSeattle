@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-export default function SignInBtn() {
+function SignInBtn() {
   return (
     <div className='container'>
       <div className='signInBtn'>
@@ -10,3 +10,5 @@ export default function SignInBtn() {
     </div>
   )
 }
+
+export default SignInBtn;

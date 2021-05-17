@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 
-export default function Header() {
+function Header() {
   return (
     <>
       <div className='header'>
@@ -12,3 +12,5 @@ export default function Header() {
     </>
   );
 }
+
+export default Header;
