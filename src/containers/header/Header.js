@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className='header'>
-        <h1>Sensory Seattle</h1>
+        <h1>Accessible Seattle</h1>
       </div>
     </>
   );

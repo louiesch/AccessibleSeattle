@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './sign-in-btn.css';
 
 export default function SignInBtn() {
   return (
