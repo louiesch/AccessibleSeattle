@@ -1,10 +1,10 @@
 import React from 'react';
-import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
+import Header from '../../containers/header/header';
 
 export default function Home() {
   return (
     <div className='home'>
-      <SignInBtn />
+      <Header />
     </div>
   )
 }

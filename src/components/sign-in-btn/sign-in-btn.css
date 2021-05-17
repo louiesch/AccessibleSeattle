@@ -1,9 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .signInBtn {
   background-color: rgb(0, 89, 255);
-  max-width: 140px;
-  text-align: center;
+  max-width: 150px;
+  max-height: 20px;
+  padding: 6px 12px;
   color: white;
   border-radius: 5px;
-  font-size: 13px;
-  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold; 
+
+/* keeping my text centered below */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
