@@ -1,5 +1,5 @@
 import React from 'react';
-import SignInBtn from '../../components/sign-in-btn';
+import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 
 export default function Home() {
   return (
