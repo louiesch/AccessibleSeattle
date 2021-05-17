@@ -1,17 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import PostControl from './components/Posts/PostControl';
+import './App.css';
 
 function App() {
   return (
     <>
       <div className="app">
-        <Header />
-        <div className="row">
-          <div className="column">
-          <PostControl />
-          </div>
-        </div>
+        
       </div>
     </>
   );
