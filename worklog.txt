@@ -1,3 +1,5 @@
 been researching resources to use for the "about" page. I really want to use this to not just create a social media, but also raise awareness about something I care a lot about and impacts people in my life.
 
 currently doing research for what kinds of accessibility to include in this. I figured a few seeded posts would be good to get people started. So far: elevators, wheelchair accessibility, ASL. For schools: accomodations for tests and assignments, attendance. For parks: are there benches or other spots where people can stop and sit? Braille in buildings. Job accomodations in the workplace. 
+
+since I have my login button, gonna try and get firebase to work now.
