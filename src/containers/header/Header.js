@@ -3,7 +3,7 @@ import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 import { UserContext } from '../../contexts/user';
 
-function Header() {
+export default function Header() {
 
   const [user, setUser] = useContext(UserContext).user
 
@@ -19,5 +19,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 
-function CreatePost() {
+export default function CreatePost() {
   return (
     <div className='createPost'>
       <SignInBtn />
@@ -12,4 +12,3 @@ function CreatePost() {
   )
 }
 
-export default CreatePost;
