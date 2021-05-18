@@ -1,1 +1,1 @@
-export {default as SignInBtn} from './components'
+export { default as SignInBtn } from './components'
