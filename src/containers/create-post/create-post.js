@@ -24,7 +24,7 @@ export default function CreatePost() {
               className='title'
               rows='1'
               value={title}
-              placeholder='Post Title'
+              placeholder='Title'
               onChange={(event) => setTitle(event.target.value)}>
             </textarea>
             <textarea
@@ -39,7 +39,7 @@ export default function CreatePost() {
               className='publishBtn'
               onClick={handlePublish}
               style={{ color: content ? '#000' : 'lightgray' }}>
-              Publish
+              Publish Post
             </button>
         </div>
       ) : (
