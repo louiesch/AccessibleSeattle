@@ -8,10 +8,7 @@ export default function CreatePost() {
   const [content, setContent] = useState('');
   const [title, setTitle] = useState('');
 
-
-  const handlePublish = () => {
-
-  }
+  const handlePublish = () => {};
 
   return (
     <div className='createPost'>
@@ -20,7 +17,7 @@ export default function CreatePost() {
         <div className='textBlock'>
           <p>Share Below:</p>
           <div className='loggedInShow'>
-          <textarea
+            <textarea
               className='title'
               rows='1'
               value={title}
@@ -29,7 +26,7 @@ export default function CreatePost() {
             </textarea>
             <textarea
               className='textArea'
-              rows='10'
+              rows='5'
               value={content}
               placeholder='Share your experience here!'
               onChange={(event) => setContent(event.target.value)}>
