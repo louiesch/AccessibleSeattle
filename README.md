@@ -18,7 +18,7 @@
 
 ## _Description_
 
-Accessible Seattle is a social media platform for people with and friends/family of those with disabilities, sensory processing disorders, and other special needs. Users can submit information about accessibility, accomodations, and potential sights, sounds, smells, etc in the local Seattle community.
+Accessible Seattle is a social media platform for people with and friends/family of those with disabilities, neurodivergence, sensory processing disorders, and other special needs. Users can submit information about accessibility, accomodations, and potential sights, sounds, smells, etc in the local Seattle community.
 
 ---
 
