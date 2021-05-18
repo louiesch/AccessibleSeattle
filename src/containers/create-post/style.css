@@ -13,16 +13,17 @@
   padding: 10px 30px;
 }
 
+.title {
+  border-color: black;
+  width: 50%;
+}
+
 .textArea {
-  border: none;
+  border-color: black;
   width: 100%;
-  outline: none;
   margin-top: 5px;
 }
 
-.textArea :focus {
-  outline: none;
-}
 
 .publishBtn {
   display: flex;

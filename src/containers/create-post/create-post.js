@@ -6,6 +6,8 @@ import { UserContext } from '../../contexts/user';
 export default function CreatePost() {
   const [user, setUser] = useContext(UserContext).user;
   const [content, setContent] = useState('');
+  const [title, setTitle] = useState('');
+
 
   const handlePublish = () => {
 
@@ -18,10 +20,18 @@ export default function CreatePost() {
         <div className='textBlock'>
           <p>Share Below:</p>
           <div className='loggedInShow'>
+          <textarea
+              className='title'
+              rows='1'
+              value={title}
+              placeholder='Post Title'
+              onChange={(event) => setTitle(event.target.value)}>
+            </textarea>
             <textarea
               className='textArea'
               rows='10'
               value={content}
+              placeholder='Share your experience here!'
               onChange={(event) => setContent(event.target.value)}>
             </textarea>
           </div>
