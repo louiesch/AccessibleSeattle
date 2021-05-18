@@ -28,10 +28,10 @@ Accessible Seattle is a social media platform for people with and friends/family
   * My goal in creating this was to provide a resource for those whose needs are often left out of your average Google or Yelp review.
 
 * Who can post?
-  * Anyone! Although this was created for people with and family/friends of those with disbilities in mind, anyone is welcome to post and share their experiences.
+  * Anyone! Although this was created for people with and family/friends of those with disabilities in mind, anyone is welcome to post and share their experiences.
 
 * What kind of things should be posted?
-  * Some examples: Is the location wheelchair accessible? Were staff/employees accomodating? For those on the autism spectrum or with sensory processing disorders, are there any potential sights, sounds, or smells to report on (very loud music, beeping from the kitchen, flourescent lighting, etc)?
+  * Some examples: Is the location wheelchair accessible? Some issues could include stairs, revolving doors, cobbles, and steps. Were staff/employees accomodating? For those on the autism spectrum or with sensory processing disorders, are there any potential sights, sounds, or smells to report (very loud music, beeping from the restaurant kitchen, flourescent lighting, etc)?
 
 ---
 

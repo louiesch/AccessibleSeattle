@@ -3,3 +3,5 @@ been researching resources to use for the "about" page. I really want to use thi
 currently doing research for what kinds of accessibility to include in this. I figured a few seeded posts would be good to get people started. So far: elevators, wheelchair accessibility, ASL. For schools: accomodations for tests and assignments, attendance. For parks: are there benches or other spots where people can stop and sit? Braille in buildings. Job accomodations in the workplace. 
 
 since I have my login button, gonna try and get firebase to work now.
+
+Collecting more resources. Specifically looking at this one for ideas: https://www.theguardian.com/cities/2018/feb/14/what-disability-accessible-city-look-like
