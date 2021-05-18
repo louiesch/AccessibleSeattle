@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Home} from './pages/pages';
+import { UserContextProvider } from './contexts/user';
+import { Home } from './pages/pages';
 
 function App() {
   return (
-    <>
+    <UserContextProvider > 
       <div className="app">
         <Home />
       </div>
-    </>
+    </UserContextProvider>
   );
 }
 
