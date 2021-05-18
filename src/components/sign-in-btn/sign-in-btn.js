@@ -1,9 +1,10 @@
-import { React, useState } from 'react';
-import { signIn } from '../../services/auth';
+import React, { useContext } from 'react';
 import './style.css';
+import { signIn } from '../../services/auth';
+import { UserContext } from '../../contexts/user';
 
-function SignInBtn() {
-  const [user, setUser] = useState();
+export default function SignInBtn() {
+  const [user, setUser] = useContext(UserContext).user;
 
   const onSignInBtnClick = async () => {
     let userBySignIn = await signIn();
@@ -16,7 +17,5 @@ function SignInBtn() {
         <p>Sign in With Google</p>
       </div>
     </div>
-  )
+  );
 }
-
-export default SignInBtn;
