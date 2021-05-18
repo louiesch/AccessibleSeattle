@@ -16,20 +16,21 @@ export default function CreatePost() {
 
       {user ? (
         <div className='loggedIn'>
-          <p>Create Post</p>
+          <p>Share Below:</p>
           <div className='loggedInShow'>
             <textarea
-              className='textarea'
+              className='textArea'
               rows='10'
               value={content}
               onChange={(event) => setContent(event.target.value)}>
             </textarea>
           </div>
-          <button 
-            className='createPost-publish'
-            onClick={handlePublish}>
-            Publish
-          </button>
+            <button 
+              className='createPost-publish'
+              onClick={handlePublish}
+              style={{ color: content ? '#000' : 'lightgray' }}>
+              Publish
+            </button>
         </div>
       ) : (
         <div>
