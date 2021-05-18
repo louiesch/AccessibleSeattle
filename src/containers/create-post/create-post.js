@@ -15,7 +15,7 @@ export default function CreatePost() {
     <div className='createPost'>
 
       {user ? (
-        <div className='loggedIn'>
+        <div className='textBlock'>
           <p>Share Below:</p>
           <div className='loggedInShow'>
             <textarea
@@ -26,7 +26,7 @@ export default function CreatePost() {
             </textarea>
           </div>
             <button 
-              className='createPost-publish'
+              className='publishBtn'
               onClick={handlePublish}
               style={{ color: content ? '#000' : 'lightgray' }}>
               Publish
