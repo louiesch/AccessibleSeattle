@@ -2,13 +2,18 @@ import React, { useContext, useState } from 'react';
 import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 import { UserContext } from '../../contexts/user';
+import { storage } from '../../firebase.js';
 
 export default function CreatePost() {
   const [user, setUser] = useContext(UserContext).user;
   const [content, setContent] = useState('');
   const [title, setTitle] = useState('');
 
-  const handlePublish = () => {};
+  const handlePublish = () => {
+    if(content) {
+      const uploadTask = storage.ref(`posts/${content}`)
+    }
+  };
 
   return (
     <div className='createPost'>
