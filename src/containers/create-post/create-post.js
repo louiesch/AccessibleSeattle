@@ -6,6 +6,11 @@ import { UserContext } from '../../contexts/user';
 export default function CreatePost() {
   const [user, setUser] = useContext(UserContext).user;
   const [content, setContent] = useState('');
+
+  const handlePublish = () => {
+
+  }
+
   return (
     <div className='createPost'>
 
@@ -20,6 +25,11 @@ export default function CreatePost() {
               onChange={(event) => setContent(event.target.value)}>
             </textarea>
           </div>
+          <button 
+            className='createPost-publish'
+            onClick={handlePublish}>
+            Publish
+          </button>
         </div>
       ) : (
         <div>
