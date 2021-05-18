@@ -8,4 +8,6 @@ Collecting more resources. Specifically looking at this one for ideas: https://w
 
 Keep trying to get the login button to actually work, but I'm running into one bug after another
 
-I managed to sort of fix it after enough googling by deleting node_modules and package-lock,json, clearing npm cache and installing again. Also had to comment out fire firebase storage. Calling it quits for the night 
+I managed to sort of fix it after enough googling by deleting node_modules and package-lock,json, clearing npm cache and installing again. Also had to comment out firebase storage. Calling it quits for the night 
+
+I can use google to log in!!! yay!!! But now I need conditional rendering to show the option to create a post if the user is signed in. I am also re-thinking my MVP and stretch goals, will update as needed
