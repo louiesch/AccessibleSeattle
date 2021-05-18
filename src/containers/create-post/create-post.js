@@ -6,7 +6,7 @@ function CreatePost() {
   return (
     <div className='createPost'>
       <SignInBtn />
-      <p style={{ marginLeft: '10px' }}>to Post!</p>
+      <p style={{ marginLeft: '9px' }}>to Post!</p>
       
     </div>
   )
