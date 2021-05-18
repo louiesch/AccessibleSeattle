@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app'; //different import statement from firebase 8.0.0 and onward
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -10,18 +10,17 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID 
 }
 
-firebase.initializeApp(firebaseConfig);
-firebase.firestore();
 
-export default firebase;
-
-
+//configure firebaseApp
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-firebase.firestore();
 
+//initialize database
 const database = firebaseApp.firestore();
+//authentication
 const auth = firebase.auth();
+// firebase cloud storage
 const storage = firebase.storage();
+//creates instance of google provider object
 const provider = new firebase.auth.GoogleAuthProvider();
 
 export { database, auth, storage, provider };
