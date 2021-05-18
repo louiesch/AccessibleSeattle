@@ -7,3 +7,5 @@ since I have my login button, gonna try and get firebase to work now.
 Collecting more resources. Specifically looking at this one for ideas: https://www.theguardian.com/cities/2018/feb/14/what-disability-accessible-city-look-like
 
 Keep trying to get the login button to actually work, but I'm running into one bug after another
+
+I managed to sort of fix it after enough googling by deleting node_modules and package-lock,json, clearing npm cache and installing again. Also had to comment out fire firebase storage. Calling it quits for the night 
