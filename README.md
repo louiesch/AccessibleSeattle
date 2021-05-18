@@ -3,7 +3,7 @@
 # **Accessible Seattle**
 ## Created by Louie Schoenknecht
 
-### A social media resource for accessibility.
+### A social media resource to help make Seattle a more disabled-accessible city.
 
 ### Project Began 5.07.21
 
