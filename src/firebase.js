@@ -13,16 +13,10 @@ const firebaseConfig = {
 }
 
 
-//configure firebaseApp
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-
-//initialize database
 const db = firebaseApp.firestore();
-//authentication
 const auth = firebase.auth();
-// firebase cloud storage
-const storage = firebase.storage();
-//creates instance of google provider object
+// const storage = firebase.storage(); (currently not needed)
 const provider = new firebase.auth.GoogleAuthProvider();
 
-export { db, auth, storage, provider };
+export { db, auth, provider };

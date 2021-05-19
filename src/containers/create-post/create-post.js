@@ -2,7 +2,8 @@ import React, { useContext, useState } from 'react';
 import './style.css';
 import SignInBtn from '../../components/sign-in-btn/sign-in-btn';
 import { UserContext } from '../../contexts/user';
-import { storage } from '../../firebase.js';
+import { db } from '../../firebase.js';
+import firebase from 'firebase';
 
 export default function CreatePost() {
   const [user, setUser] = useContext(UserContext).user;
@@ -11,7 +12,13 @@ export default function CreatePost() {
 
   const handlePublish = () => {
     if(content) {
-      const uploadTask = storage.ref(`posts/${content}`)
+      db.collection('posts').add({
+        content: content,
+        photoURL: user.photoURL,
+        time: firebase.firestore.FieldValue.serverTimestamp(),
+        title: title,
+        username: user.email.replace('@gmail.com', '')
+      })
     }
   };
 
