@@ -45,7 +45,7 @@ function Post({
         </p>
       </div>
 
-      <CommentInput id={id} />
+      <CommentInput comments={comments} id={id} />
 
       {comments ? (
         comments.map((comment) => (
