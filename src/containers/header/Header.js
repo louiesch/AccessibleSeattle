@@ -9,13 +9,15 @@ export default function Header() {
 
   return (
     <div className='header'>
-      <h1>Accessible Seattle</h1>
-        <div className='container'>
-        {user ? 
-        <img className='header-img' alt='profile photo'
-        src={user.photoURL} /> 
-        : <SignInBtn />}
-        </div>
+      <h1>Accessible Seattle 
+        <img style={{marginLeft:'10px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Wheelchair_symbol.svg/898px-Wheelchair_symbol.svg.png' alt='wheelchair accessible symbol' width='35px' height='35px'></img>
+      </h1>
+      <div className='container'>
+      {user ? 
+      <img className='header-img' alt='profile photo'
+      src={user.photoURL} /> 
+      : <SignInBtn />}
+      </div>
     </div>
   );
 }

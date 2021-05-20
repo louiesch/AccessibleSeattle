@@ -52,9 +52,9 @@ export default function CreatePost() {
             </button>
         </div>
       ) : (
-        <div>
+        <div className='container'>
           <SignInBtn />
-          <p style={{ marginLeft: '5px' }}>to Post!</p>
+          <p style={{ marginLeft: '5px', fontWeight: 'bold'}}>to Post!</p>
         </div>
       )}
     </div>

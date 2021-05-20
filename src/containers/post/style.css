@@ -1,8 +1,9 @@
 .post {
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   max-width: 600px;
   width: 90vw;
   padding: 15px;
+  border-radius: 5px;
 }
 
 .post-header {
