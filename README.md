@@ -52,7 +52,7 @@ Accessible Seattle is a social media platform for people with and friends/family
 ---
 
 ## _Known Bugs_
-* No known bugs at this time.
+* Posts are not shown in correct order. Currently sorted by auto-generated ID so it's random where they go. Can't figure out how to get the orderBy() method to work.
 
 ---
 
