@@ -49,12 +49,10 @@ Accessible Seattle is a social media platform for people with and friends/family
 * **Visual Studio Code**
 * **webpack**
 
-(thats all FOR NOW)
-
 ---
 
 ## _Known Bugs_
-* Posts are not shown in correct order. Currently sorted by auto-generated ID so it's random where they go. Can't figure out how to get the orderBy() method to work.
+* Posts are not shown in correct order. Currently sorted by auto-generated ID so it's random where they go. Can't figure out how to get the orderBy() method to work with the timestamp.
 * Post title and content fields do not automatically clear when post is published.
 * Posts can be deleted by anyone, without being logged in.
 
