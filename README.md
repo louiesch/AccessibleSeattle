@@ -83,13 +83,6 @@ Accessible Seattle is a social media platform for people with and friends/family
 
 ---
 
-## _Preplanning/Component Diagram_
-
-![Component Diagram](path-here)
-
-
----
-
 ## _Installation Guide_
 
 ### _Cloning and Initial Setup_
