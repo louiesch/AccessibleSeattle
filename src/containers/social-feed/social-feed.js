@@ -20,11 +20,11 @@ function SocialFeed() {
         return (
           <Post
             key={id}
+            id={id} 
             photoURL={post.photoURL}
             username={post.username}
             title={post.title}
             content={post.content}
-            id={id} 
           />
         );
       })}
