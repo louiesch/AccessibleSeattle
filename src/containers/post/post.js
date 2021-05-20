@@ -1,17 +1,24 @@
 import React, { useState, useContext } from 'react';
-import { UserContext } from '../../contexts/user'
+import './style.css';
 
-function Post() {
-
-  const [user, setUser] = useContext(UserContext).user;
-
+function Post({
+  username, 
+  photoURL, 
+  title, 
+  content,
+  id
+}) {
   return (
-    <div className='container'>
       <div className='post'>
-        {/* <img src={user.photoURL} /> */}
+        <div className='post-header'>
+          <div className='post-header-left'>
+            <img className='post-profile-img' src={photoURL} />
+            <p>{username}</p>
+          </div>
+          <button>Delete</button>
+        </div>
       </div>
-    </div>
-  )
+  );
 }
 
 export default Post;

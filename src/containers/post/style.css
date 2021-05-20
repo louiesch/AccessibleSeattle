@@ -1,0 +1,17 @@
+.post {
+  background-color: white;
+  max-width: 600px;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header-left {
+  display: flex;
+}
+
+.post-profile-img {
+  height: 50px;
+  border-radius: 25px;
+}

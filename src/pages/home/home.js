@@ -11,7 +11,7 @@ function Home() {
       <CreatePost />
       <SocialFeed />
     </div>
-  )
+  );
 }
 
 export default Home;
