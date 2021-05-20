@@ -1,0 +1,15 @@
+.comment-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-text-area {
+  width: 100%;
+  resize: none;
+  margin: 5px 0px;
+}
+
+.comment-btn {
+  background-color: white;
+  border: none;
+}

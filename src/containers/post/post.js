@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import './style.css';
 import Comment from '../../components/comment/comment'
 import { db } from '../../firebase';
+import CommentInput from '../../components/comment-input/comment-input'
 
 function Post({
   username, 
@@ -43,6 +44,9 @@ function Post({
           <span>{content}</span>
         </p>
       </div>
+
+      <CommentInput id={id} />
+
       {comments ? (
         comments.map((comment) => (
           <Comment username={comment.username} 
