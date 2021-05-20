@@ -64,8 +64,6 @@ Accessible Seattle is a social media platform for people with and friends/family
 
 * Users can go back and edit or delete their posts.
 
-* I want the website itself to be sensory-friendly, as such a light/dark mode toggle is needed at the very minimum. Will need to research some more about this part of the MVP
-
 ---
 
 ## _Stretch Goals_
@@ -87,11 +85,11 @@ Accessible Seattle is a social media platform for people with and friends/family
 
 ### _Cloning and Initial Setup_
 
-> Repository: 
+> Repository: https://github.com/louiesch/AccessibleSeattle
 * Clone repository from Github to desired location on local machine:
-  > git clone [URL]
-* Navigate in your terminal to SensorySeattle directory:
-  > cd SensorySeattle
+  > git clone github.com/louiesch/AccessibleSeattle
+* Navigate in your terminal to AccessibleSeattle directory:
+  > cd AccessibleSeattle
 * Build the project with:
   > npm install
 * To open code in code editor:
