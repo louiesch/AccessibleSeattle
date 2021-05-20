@@ -55,6 +55,8 @@ Accessible Seattle is a social media platform for people with and friends/family
 
 ## _Known Bugs_
 * Posts are not shown in correct order. Currently sorted by auto-generated ID so it's random where they go. Can't figure out how to get the orderBy() method to work.
+* Post title and content fields do not automatically clear when post is published.
+* Posts can be deleted by anyone, without being logged in.
 
 ---
 
