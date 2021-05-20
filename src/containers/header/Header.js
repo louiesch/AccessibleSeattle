@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className='header'>
       <h1>Accessible Seattle 
-        <img style={{marginLeft:'10px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Wheelchair_symbol.svg/898px-Wheelchair_symbol.svg.png' alt='wheelchair accessible symbol' width='35px' height='35px'></img>
+        <img style={{marginLeft:'10px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Wheelchair_symbol.svg/898px-Wheelchair_symbol.svg.png' alt='wheelchair accessible symbol' width='32px' height='32px'></img>
       </h1>
       <div className='container'>
       {user ? 
