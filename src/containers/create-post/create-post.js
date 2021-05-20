@@ -5,7 +5,7 @@ import { UserContext } from '../../contexts/user';
 import { db } from '../../firebase.js';
 import firebase from 'firebase';
 
-export default function CreatePost() {
+export default function CreatePost({id}) {
   const [user, setUser] = useContext(UserContext).user;
   const [content, setContent] = useState('');
   const [title, setTitle] = useState('');
@@ -20,9 +20,6 @@ export default function CreatePost() {
         username: user.email.replace('@gmail.com', '')
       });
       
-
-      // setTitle('');
-      // setContent('');
     }
   };
 

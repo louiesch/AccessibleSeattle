@@ -27,6 +27,7 @@ function SocialFeed() {
             username={post.username}
             title={post.title}
             content={post.content}
+            comments={post.comments}
           />
         );
       })}

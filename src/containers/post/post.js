@@ -43,20 +43,24 @@ function Post({
         <p>
           <span>{content}</span>
         </p>
+        <hr />
       </div>
-
-      <CommentInput comments={comments} id={id} />
 
       {comments ? (
         comments.map((comment) => (
-          <Comment username={comment.username} 
-          content={comment.comment} />
+          <Comment
+            username={comment.username} 
+            content={comment.comment} 
+          />
         )) 
       ) : (
         <div>
 
         </div>
       )}
+
+      <CommentInput comments={comments} id={id} />
+
     </div>
   );
 }
