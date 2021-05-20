@@ -12,7 +12,7 @@ export default function Header() {
       <h1>Accessible Seattle</h1>
         <div className='container'>
         {user ? 
-        <img className='header-img' 
+        <img className='header-img' alt='profile photo'
         src={user.photoURL} /> 
         : <SignInBtn />}
         </div>

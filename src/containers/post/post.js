@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import UserContext from '../../contexts/user'
+import { UserContext } from '../../contexts/user'
 
 function Post() {
 
@@ -8,7 +8,7 @@ function Post() {
   return (
     <div className='container'>
       <div className='post'>
-        <img src={user.photoURL} />
+        {/* <img src={user.photoURL} /> */}
       </div>
     </div>
   )
