@@ -22,6 +22,7 @@ function Post({
     .catch(function (error) {
       console.log(`Error ${error}`);
     });
+  }
 
 
   return (
@@ -31,7 +32,7 @@ function Post({
           <img className='post-profile-img' src={photoURL} />
           <p style={{marginLeft:'8px', fontWeight: 'bold'}}>{username}</p>
         </div>
-        <button className='post-delete'>Delete</button>
+        <button onClick={deletePost} className='post-delete'>Delete</button>
       </div>
       <div className='post-center'>
         <p>
