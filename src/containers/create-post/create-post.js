@@ -19,6 +19,10 @@ export default function CreatePost() {
         title: title,
         username: user.email.replace('@gmail.com', '')
       });
+      
+
+      // setTitle('');
+      // setContent('');
     }
   };
 
