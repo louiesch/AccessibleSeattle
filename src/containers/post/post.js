@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './style.css';
 import Comment from '../../components/comment/comment'
+import { db } from '../../firebase';
 
 function Post({
   username, 
@@ -10,6 +11,19 @@ function Post({
   comments,
   id
 }) {
+
+  const deletePost = () => {
+
+
+    db.collection('posts').doc(id).delete()
+    .then(function () {
+      console.log('delete successful');
+    })
+    .catch(function (error) {
+      console.log(`Error ${error}`);
+    });
+
+
   return (
     <div className='post'>
       <div className='post-header'>
@@ -35,7 +49,7 @@ function Post({
         )) 
       ) : (
         <div>
-          
+
         </div>
       )}
     </div>
