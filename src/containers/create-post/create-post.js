@@ -33,7 +33,7 @@ export default function CreatePost() {
               className='title'
               rows='1'
               value={title}
-              placeholder='Title'
+              placeholder='Name of business'
               onChange={(event) => setTitle(event.target.value)}>
             </textarea>
             <textarea
