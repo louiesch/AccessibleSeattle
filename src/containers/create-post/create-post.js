@@ -18,7 +18,7 @@ export default function CreatePost() {
         time: firebase.firestore.FieldValue.serverTimestamp(),
         title: title,
         username: user.email.replace('@gmail.com', '')
-      })
+      });
     }
   };
 

@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
-import Post from '../post/post'
+import Post from '../post/post';
+import { db } from '../../firebase';
 
 function SocialFeed() {
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    db.collection('posts').onSnapshot((snapshot) => {
+      setPosts(snapshot.docs.map((document) => ({
+        id: document.id, post: document.data()})))
+    });
+  }, [])
+
   return (
     <div className='socialfeed'>
-      <Post
-        photoURL='https://lh3.googleusercontent.com/a-/AOh14GjJQpO6czRohgOIgcUbPfKmZXVa2jmZC7_l99yQog=s96-c' 
-        username='LouieSch'
-        title='Met Park Apts'
-        content='Yall they fucking suck. Oh my god. So many stairs. One elevator and still more stairs. Impossible if in wheelchair.'
-      />
+      {posts.map(({id, post}) => {
+        return (
+          <Post
+            key={id}
+            photoURL={post.photoURL}
+            username={post.username}
+            title={post.title}
+            content={post.content}
+            id={id} 
+          />
+        );
+      })}
+
     </div>
   );
 }
