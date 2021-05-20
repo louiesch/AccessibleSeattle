@@ -1,11 +1,13 @@
 import React, { useState, useContext } from 'react';
 import './style.css';
+import Comment from '../../components/comment/comment'
 
 function Post({
   username, 
   photoURL, 
   title, 
   content,
+  comments,
   id
 }) {
   return (
@@ -26,6 +28,16 @@ function Post({
           <span>{content}</span>
         </p>
       </div>
+      {comments ? (
+        comments.map((comment) => (
+          <Comment username={comment.username} 
+          content={comment.comment} />
+        )) 
+      ) : (
+        <div>
+          
+        </div>
+      )}
     </div>
   );
 }
